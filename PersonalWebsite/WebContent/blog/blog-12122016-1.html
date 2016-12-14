@@ -13,15 +13,15 @@
 <title>Damien Anderson</title>
 
 <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="css/one-page-wonder.css" rel="stylesheet">
-<link href="css/generalStyles.css" rel="stylesheet">
+<link href="../css/one-page-wonder.css" rel="stylesheet">
+<link href="../css/generalStyles.css" rel="stylesheet">
 
 <script
 	src="https://unpkg.com/contentful@latest/browser-dist/contentful.min.js"></script>
-<script src="js/contentful.js"></script>
+<script src="/js/contentful.js"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,9 +51,9 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav" id="navLinks">
-					<li><a href="#">Blog</a></li>
-					<li><a href="research.html">Research</a></li>
-					<li><a href="education.html">Education</a></li>
+					<li><a href="../blog.html">Blog</a></li>
+					<li><a href="../research.html">Research</a></li>
+					<li><a href="../education.html">Education</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -65,7 +65,7 @@
 	<header class="header-image">
 		<div class="headline">
 			<div class="container">
-				<img src="images/me.jpg" class="img-responsive" id="faceImage"
+				<img src="../images/me.jpg" class="img-responsive" id="faceImage"
 					alt="Myself and my face">
 				<h3>Damien Anderson</h3>
 				<p>PhD Student</p>
@@ -77,39 +77,43 @@
 	</header>
 
 	<!-- Page Content -->
-	<div class="container">
-		<h2 class="featurette-heading">
-			Blog<span class="text-muted"> A place for my thoughts</span>
-		</h2>
-			<hr class="featurette-divider">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="post-preview">
-					<a href="blog/blog-12122016-1.html">
-						<h2 class="post-title">The first plan</h2>
-						<h3 class="post-subtitle">The planningest plan</h3>
-					</a>
-					<p class="post-meta">
-						Posted by <a href="#">Damorin</a> on December, 12, 2016
-					</p>
+	<hr class="featurette-divider">
+	<article>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<h2 class="post-title">The first plan</h2>
+					<p>This week my main goal is to get up and running so that I
+						can be more productive in the future. I need to finish getting
+						this website running and start to publish the content online.
+						Should I managed to get this done I will be able to move onto my
+						first experiments of the PhD (Yay).</p>
+					<ol>
+						<li>Write the week's plan</li>
+						<li>Build the Website</li>
+						<li>Publish the aforementioned plan</li>
+						<li>Begin work on the first RTSL agent (This is my first
+							experimental agent for my research)</li>
+						<li>Create roughly 5 Junit tests a day and ensure that the
+							program passes them.</li>
+					</ol>
+					<p>Bonus Objectives:</p>
+					<ol>
+						<li>Setup a continuous integration server to automatically
+							run the tests and keep an eye out for any breaking code changes.</li>
+						<li>Begin pre-writing the research paper for CIG
+						<li>Create a layout for the research paper to fill in later
+						<li>Create some abstracts for each section of the paper. Test
+							the flow of the work.</li>
+					</ol>
+
+					<p>At the end of each week I will refer back to this plan to
+						see how successful or not I have been. I will likely put a few
+						blog posts up in between but this is a good starting schedule!</p>
 				</div>
-				<hr>
-				<div class="post-preview">
-					<a href="blog/blog-12122016.html">
-						<h2 class="post-title">A new start</h2>
-						<h3 class="post-subtitle"></h3>
-					</a>
-					<p class="post-meta">
-						Posted by <a href="#">Damorin</a> on December, 12, 2016
-					</p>
-				</div>
-				<!-- Pager -->
-				<ul class="pager">
-					<!-- <li class="next"><a href="#">Older Posts &rarr;</a></li> -->
-				</ul>
 			</div>
 		</div>
-	</div>
+	</article>
 	<hr class="featurette-divider">
 	<!-- Footer -->
 	<footer>
